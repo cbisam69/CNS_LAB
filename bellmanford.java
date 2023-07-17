@@ -1,5 +1,5 @@
 import java.util.*;
-public class BellmanFord
+public class Main
 {
     public static void main(String[] args)
     {
@@ -16,6 +16,7 @@ public class BellmanFord
         int [] dist=new int [n];
         System.out.println("Enter the source vertex");
         int src= sc.nextInt();
+        System.out.println("the distance of vertices from"+src);
         for(int i=0;i<n;i++)
         {
             if(i==src)
@@ -43,3 +44,4 @@ public class BellmanFord
  
     }
 }
+
